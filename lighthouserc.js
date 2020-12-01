@@ -2,7 +2,7 @@ module.exports = {
     ci: {
         collect: {
             url: ['http://localhost:3000'],
-            startServerComman: 'node index.js'
+            startServerCommand: 'node index.js'
         },
         upload: {
             target: 'lhci',
