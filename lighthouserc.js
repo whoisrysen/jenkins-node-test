@@ -1,13 +1,18 @@
+var test = "https://www.reddit.com";
+var test2 = "https://www.reddit.com/r/tifu"
+
 module.exports = {
     ci: {
         collect: {
-            url: ['http://localhost:3000'],
-            startServerCommand: 'node index.js'
+            url: [
+                test,
+                test2
+            ]
         },
         upload: {
             target: 'lhci',
-            token: 'fb41c7d4-c665-4397-bab4-e13bbd6381ca',
-            serverBaseUrl: 'http://localhost:9001'
+            token: '6b8e96c6-2857-4842-8812-d80eb7ecb5a3',
+            serverBaseUrl: 'http://lhci-server:9001'
         }
     }
 }
