@@ -1,4 +1,4 @@
-if (process.env.AS_CRON) {
+if (process.env.AS_CRON === "true") {
     var hash = Date.now()
         .toString(16)
         .split('')
