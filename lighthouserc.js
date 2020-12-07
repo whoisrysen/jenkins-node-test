@@ -20,7 +20,10 @@ var urls = process.env.URLS.split('\n');
 module.exports = {
     ci: {
         collect: {
-            url: urls
+            url: urls,
+            settings: {
+                chromeFlags: "--no-sandbox"
+            }
         },
         upload: {
             target: 'lhci',
