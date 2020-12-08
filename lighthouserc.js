@@ -63,7 +63,7 @@ module.exports = {
         collect: {
             url: urls,
             settings: {
-                maxWaitForLoad: 60,
+                maxWaitForLoad: 120,
                 chromeFlags: "--no-sandbox"
             }
         },
