@@ -21,7 +21,7 @@ if (system.domain) {
     var newUrls = [];
 
     for (const url of urls) {
-        if (Array.isArray(system.domain)) {
+        if (Array.isArray(system.domain) && url.includes('##SYSTEM##')) {
             for (const domain of system.domain) {
                 newUrls.push(url.replace('##SYSTEM##', domain))
             }
@@ -63,6 +63,7 @@ module.exports = {
         collect: {
             url: urls,
             settings: {
+                maxWaitForLoad: 60,
                 chromeFlags: "--no-sandbox"
             }
         },
