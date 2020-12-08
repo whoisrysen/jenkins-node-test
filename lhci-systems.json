@@ -1,0 +1,37 @@
+{
+    "Production": {
+        "token": "d89887af-4acd-4e74-be29-58133b1f715c",
+        "domain": [
+            "www.bader.de",
+            "www.brigitte-hachenburg.de"
+        ]
+    },
+    "CI-Feature": {
+        "token": "3875d9f4-0daa-4f39-b32a-6e102c4e55e9",
+        "domain": [
+            "de-feat-ci.bader.arvato-systems.de",
+            "de-feat-ci-brigitte.bader.arvato-systems.de"
+        ]
+    },
+    "CI-Bugfix": {
+        "token": "0d7d2a64-bee1-4b63-a056-ed2d7070e80e",
+        "domain": [
+            "de-bug-ci.bader.arvato-systems.de",
+            "de-bug-ci-brigitte.bader.arvato-systems.de"
+        ]
+    },
+    "QA-Feature": {
+        "token": "f1b9c980-a716-4f36-bb65-908ff9e2e2a8",
+        "domain": [
+            "de-feat-qa.bader.arvato-systems.de",
+            "de-feat-qa-brigitte.bader.arvato-systems.de"
+        ]
+    },
+    "QA-Bugfix": {
+        "token": "2b05185e-4cec-4f79-a907-cf671d0a4bbc",
+        "domain": [
+            "de-bug-qa.bader.arvato-systems.de",
+            "de-bug-qa-brigitte.bader.arvato-systems.de"
+        ]
+    }
+}
