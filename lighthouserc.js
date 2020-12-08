@@ -61,12 +61,15 @@ else {
 module.exports = {
     ci: {
         collect: {
-            url: urls
+            url: urls,
+            settings: {
+                chromeFlags: "--no-sandbox"
+            }
         },
         upload: {
             target: 'lhci',
             token: system.token,
-            serverBaseUrl: 'http://localhost:9001'
+            serverBaseUrl: 'http://lhci-server:9001'
         }
     }
 }
